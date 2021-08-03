@@ -31,5 +31,5 @@ app.use("/api/user", userRoute);
 app.use("/api/post", postRoute);
 
 app.listen(process.env.PORT, () => {
-  console.log("server is listening now");
+  console.log("server is listening now " + process.env.PORT);
 });
